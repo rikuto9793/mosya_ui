@@ -55,13 +55,13 @@ export default function () {
 
             <div className="flex flex-row items-center justify-start w-full ml-16 mt-12">
               {/* チェックボックス */}
-              <input type="checkbox" defaultChecked className="checkbox bg-gray-100" />
+              <input type="checkbox" className="checkbox bg-gray-100" />
               <p className="text-center text-base font-bold text-gray-800 ml-4">
                 パスワードを表示する
               </p>
             </div>
             <div className="flex flex-row items-center justify-start w-full ml-16 mt-4">
-              <input type="checkbox" defaultChecked className="checkbox bg-gray-100" />
+              <input type="checkbox" className="checkbox bg-gray-100" />
               <p className="text-center text-base font-bold text-gray-800 ml-4">
                 同意
               </p>
